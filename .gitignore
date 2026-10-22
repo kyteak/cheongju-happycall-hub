@@ -1,0 +1,13 @@
+# 원자료·대용량 데이터는 올리지 않음 (data/README.md에 받는 방법 안내)
+data/*
+!data/README.md
+
+# 파이썬·환경
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
