@@ -37,7 +37,7 @@
 │   └── 보고서_그림1-10_재현_colab.ipynb   # 같은 내용의 Google Colab용 노트북
 ├── figures/                 # 결과 그림 (fig01~fig10.png)
 ├── outputs/                 # 결과 수치 (report_numbers.csv)
-├── data/                    # 데이터 넣는 곳 (저장소에는 올리지 않음, data/README.md 참고)
+├── data/교통분석_데이터.zip   # 분석 데이터 (실행하면 자동으로 압축 풂, data/README.md 참고)
 └── requirements.txt
 ```
 
@@ -51,7 +51,7 @@
    .\.venv\Scripts\Activate.ps1      # Windows PowerShell  (macOS·Linux: source .venv/bin/activate)
    pip install -r requirements.txt
    ```
-4. `data/` 폴더에 `교통분석_데이터.zip`을 넣습니다 (압축은 코드가 알아서 풉니다).
+4. 데이터는 `data/교통분석_데이터.zip`에 들어 있어 따로 준비할 필요가 없습니다 (압축은 코드가 알아서 풉니다).
 5. 실행합니다.
    - **그림 하나씩**: `analysis/` 폴더의 그림 파일(예: `fig05_hub_occupancy.py`)을 열고 오른쪽 위 ▷ (Run Python File). 그림이 창으로 뜨고 `figures/`에 저장됩니다. 터미널에서는 `python analysis/fig05_hub_occupancy.py`
    - **한꺼번에**: `python run_all.py` → 그림 10장 + `outputs/report_numbers.csv`
